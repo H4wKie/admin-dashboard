@@ -1,0 +1,72 @@
+.search-personal, .welcome-actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10px;
+}
+
+.search {
+  display: flex;
+  align-items: center;
+  background-color: grey;
+  width: 60%;
+  border-radius: 50px;
+}
+
+.search > img {
+  height: 25px;
+  padding-inline: 10px;
+  filter: invert(100%);
+}
+
+.search > input[type=search] {
+  all: unset;
+  padding-block: 7px;
+  padding-inline-end: 5px;
+  width: 100%;
+}
+
+.personal {
+  display: flex;
+  align-items: center;
+}
+
+.bell {
+  height: 30px;
+}
+
+.profile-picture {
+  height: 50px;
+  border-radius: 50%;
+  margin-inline: 25px;
+}
+
+.welcome {
+  display: flex;
+  align-items: center;
+}
+
+.welcome-picture {
+  height: 60px;
+  border-radius: 50%;
+  padding-inline-end: 10px;
+}
+
+.welcome-text > h3 {
+  letter-spacing: -1px;
+}
+
+.actions {
+  width: max-content;
+}
+
+.actions > button {
+  all: unset;
+  color: white;
+  background-color: blue;
+  padding-block: 7px;
+  padding-inline: 15px;
+  border-radius: 17px;
+  margin-inline-start: 10px;
+  cursor: pointer;
+}
