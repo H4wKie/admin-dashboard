@@ -1,0 +1,42 @@
+.side-bar-logo {
+  display: flex;
+  align-items: center;
+  margin-block-end: 20px;
+  cursor: pointer;
+}
+
+.side-bar-logo > img {
+  height: 40px;
+  filter: invert(100%);
+}
+
+.side-bar-logo > h2 {
+  padding-inline-start: 10px;
+}
+
+.side-bar-top, .side-bar-bottom {
+  padding: 20px;
+}
+
+.side-bar-link {
+  display: flex;
+  align-items: center;
+  width: max-content;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+
+.side-bar-link:hover > img {
+  transform: scale(1.15);
+}
+
+.side-bar-link > img {
+  height: 40px;
+  padding: 7px;
+  filter: invert(100%);
+}
+
+.side-bar-link > h3 {
+  padding-inline: 10px;
+  font-weight: 100;
+}
