@@ -12,7 +12,7 @@
 .project-data {
   width: 100%;
   font-size: 0.85rem;
-  border-left: 10px solid yellow;
+  border-left: 10px solid #C8A96A;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -45,7 +45,7 @@
 
 .announcements-content > h6, .trending-post-text > h6, 
 .project-data-text > h5 {
-  color: rgb(100, 100, 100);
+  color: #6B6B6B;
   font-weight: 100;
 }
 

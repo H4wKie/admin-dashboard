@@ -7,7 +7,7 @@
 
 .side-bar-logo > img {
   height: 40px;
-  filter: invert(100%);
+  filter: invert(93%);
 }
 
 .side-bar-logo > h2 {
@@ -30,10 +30,14 @@
   transform: scale(1.15);
 }
 
-.side-bar-link > img {
+.side-bar-link:hover {
+  color: #FFFFFF;
+}
+
+.side-bar-link-svg {
   height: 40px;
   padding: 7px;
-  filter: invert(100%);
+  filter: invert(93%);
 }
 
 .side-bar-link > h3 {

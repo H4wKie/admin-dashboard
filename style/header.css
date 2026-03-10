@@ -8,7 +8,7 @@
 .search {
   display: flex;
   align-items: center;
-  background-color: grey;
+  background-color: #E2E8F0;
   width: 60%;
   border-radius: 50px;
 }
@@ -16,7 +16,6 @@
 .search > img {
   height: 25px;
   padding-inline: 10px;
-  filter: invert(100%);
 }
 
 .search > input[type=search] {
@@ -61,11 +60,10 @@
 
 .actions > button {
   all: unset;
-  color: white;
-  background-color: blue;
+  color: #FFFFFF;
+  background-color: #2C7A7B;
   padding-block: 7px;
   padding-inline: 15px;
-  border: 2px solid blue;
   border-radius: 17px;
   margin-inline-start: 10px;
   cursor: pointer;
@@ -73,6 +71,5 @@
 }
 
 .actions > button:hover {
-  color: blue;
-  background-color: transparent;
+  background-color: #245F61;
 }

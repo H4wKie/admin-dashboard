@@ -8,14 +8,14 @@
 body {
   overflow: hidden;
   display: flex;
-  background-color: lightcyan;
+  background-color: #F5F5F3;
 }
 
 .side-bar {
-  background-color: blue; 
+  background-color: #1F2A2E; 
   width: 300px;
   height: 100dvh;
-  color: white;
+  color: #E6ECEF;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -29,7 +29,7 @@ body {
 
 .main-header {
   width: 100%;
-  background-color: red;
+  background-color: #FFFFFF;
   padding-block: 5px;
   padding-inline: 50px;
   box-shadow: 0px 6px 10px RGB(0, 0, 0, 0.4);
@@ -40,6 +40,6 @@ body {
   padding-inline: 20px;
   display: grid;
   grid-template-columns: minmax(250px, auto) 250px;
-  /* grid-template-rows: repeat(4, min-content); */
   gap: 20px;
+  color: #1A1A1A;
 }
