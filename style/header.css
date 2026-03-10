@@ -49,11 +49,10 @@
 .welcome-picture {
   height: 60px;
   border-radius: 50%;
-  padding-inline-end: 10px;
 }
 
-.welcome-text > h3 {
-  letter-spacing: -1px;
+.welcome-text {
+  padding-inline-start: 10px;
 }
 
 .actions {
@@ -66,7 +65,14 @@
   background-color: blue;
   padding-block: 7px;
   padding-inline: 15px;
+  border: 2px solid blue;
   border-radius: 17px;
   margin-inline-start: 10px;
   cursor: pointer;
+  transition: 200ms;
+}
+
+.actions > button:hover {
+  color: blue;
+  background-color: transparent;
 }

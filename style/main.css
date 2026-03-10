@@ -1,0 +1,75 @@
+.projects {
+  grid-row: span 3;
+}
+
+.projects-content {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-template-rows: repeat(auto-fill, minmax(150px, 175px));
+  gap: 20px;
+}
+
+.project-data {
+  width: 100%;
+  font-size: 0.85rem;
+  border-left: 10px solid yellow;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-data-icons {
+  display: flex;
+  justify-content: end;
+  padding-block-start: 10px;
+}
+
+.project-data-icons > img {
+  height: 22px;
+  margin-inline: 5px;
+  cursor: pointer;
+}
+
+.announcements-header, .trending-header, .projects-header {
+  margin-block-end: 10px;
+}
+
+.announcements-content, .trending-content, .project-data {
+  background-color: white;
+  border-radius: 10px;
+  width: 100%;
+  padding-block: 25px;
+  padding-inline: 20px;
+  box-shadow: 5px 5px 10px RGB(0, 0, 0, 0.3);
+}
+
+.announcements-content > h6, .trending-post-text > h6, 
+.project-data-text > h5 {
+  color: rgb(100, 100, 100);
+  font-weight: 100;
+}
+
+hr {
+  margin-block: 10px;
+}
+
+.trending {
+  width: 100%;
+}
+
+.trending-post {
+  display: flex;
+  align-items: center;
+  padding-block-end: 15px;
+}
+
+.trending-post:last-child {
+  padding-block-end: 0px;
+}
+
+
+.trending-post > img {
+  height: 40px;
+  border-radius: 50%;
+  margin-inline-end: 10px;
+}
