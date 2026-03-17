@@ -1,0 +1,88 @@
+@media (max-width: 1050px) {
+  .side-bar {
+    position: absolute;
+    width: 100%;
+  }
+
+  body {
+    overflow-y: auto;
+  }
+
+  .main-box {
+    overflow-y: visible;
+  }
+}
+
+@media (max-width: 825px) {
+  .personal > h4 {
+    display: none;
+  }
+
+  .welcome-actions {
+    justify-content: center;
+  }
+  
+  .welcome {
+    display: none;
+  }
+
+  .actions > button {
+    margin-inline-start: 5px;
+    margin-inline-end: 5px;
+  }
+}
+
+@media (max-width: 600px) {
+  .bell {
+    height: 20px;
+  }  
+
+  .profile-picture {
+    height: 40px;
+  }
+
+  .content-box {
+    grid-template-columns: minmax(250px, auto);
+  }
+
+  .actions > button {
+    font-size: 0.7em;
+  }
+
+  .announcements {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .trending {
+    grid-column: 1;
+    grid-row: 2;
+  }
+}
+
+@media (max-width: 450px) {
+  .search-personal, .welcome-actions {
+    flex-direction: column;
+    padding-block: 5px;
+  }
+
+  .personal {
+    display: none;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .search > img {
+    height: 15px;
+  }
+
+  .search > input[type=search] {
+    font-size: 0.7em;
+  }
+
+  .actions > button {
+    font-size: 0.5em;
+  }
+}

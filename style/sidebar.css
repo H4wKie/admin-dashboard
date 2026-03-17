@@ -1,3 +1,30 @@
+.side-bar-collapse {
+  position: absolute;
+  margin: 15px;
+  padding: 5px;
+  z-index: 1;
+  background-color: #1F2A2E;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.side-bar-collapse > img {
+  height: 40px;
+  filter: invert(93%);
+}
+
+.side-bar {
+  height: 100dvh;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: #1F2A2E;
+}
+
 .side-bar-logo {
   display: flex;
   align-items: center;
@@ -43,4 +70,8 @@
 .side-bar-link > h3 {
   padding-inline: 10px;
   font-weight: 100;
+}
+
+.hidden {
+  display: none;
 }

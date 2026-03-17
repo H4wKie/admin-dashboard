@@ -1,7 +1,5 @@
-import { loadMainHeader } from "./script/load-main-header.js";
-import { loadMainProjects } from "./script/load-main-projects.js";
-import { loadSideBar } from "./script/load-sidebar.js";
+import { loadPage } from "./script/load-page.js";
+import { addSidebarEventListener } from "./script/sidebar-collapse.js";
 
-loadSideBar();
-loadMainHeader();
-loadMainProjects();
+loadPage();
+addSidebarEventListener();

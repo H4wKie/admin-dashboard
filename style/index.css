@@ -3,6 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  scrollbar-color: #E6ECEF #1F2A2E;
+  scrollbar-width: auto;
 }
 
 body {
@@ -11,27 +13,26 @@ body {
   background-color: #F5F5F3;
 }
 
-.side-bar {
-  background-color: #1F2A2E; 
-  width: 300px;
-  height: 100dvh;
+.side-bar-box {
   color: #E6ECEF;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  width: max-content;
+  height: max-content;
 }
 
 .main-box {
   width: 100%;
   height: 100dvh;
   overflow-y: auto;
+  scrollbar-color: #E6ECEF #1F2A2E;
+  scrollbar-width: auto;
 }
 
 .main-header {
   width: 100%;
   background-color: #FFFFFF;
   padding-block: 5px;
-  padding-inline: 50px;
+  padding-inline-start: 40px;
+  padding-inline-end: 40px;
   box-shadow: 0px 6px 10px RGB(0, 0, 0, 0.4);
 }
 

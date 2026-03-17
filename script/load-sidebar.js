@@ -2,10 +2,13 @@ import { sideBarLinkArr } from "./sidebar-link-constr.js";
 import { sideBarLoadLinks } from "./sidebar-link-load.js";
 
 function loadSideBar() {
-  let sideBarElem = document.getElementsByClassName('side-bar');
+  let sideBarElem = document.getElementsByClassName('side-bar-box');
   sideBarElem = sideBarElem[0];
 
   sideBarElem.innerHTML = `
+    <div class="side-bar-collapse">
+      <img src="icons/view-dashboard.svg" alt="">
+    </div>
     <div class="side-bar">
       <div class="side-bar-top">
         <div class="side-bar-logo">
